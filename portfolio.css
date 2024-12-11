@@ -1,0 +1,81 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f9;
+}
+header {
+   background-color: #333;
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+header img {
+   width: 100px;
+   border-radius: 50%;
+}
+header h1 {
+   margin: 10px 0;
+}
+header p {
+   font-style: italic;
+}
+.container {
+   width: 90%;
+   max-width: 1200px;
+   margin: 20px auto;
+}
+.sobre {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.sobre p {
+   line-height: 1.6;
+}
+.trabalhos, .servicos, .comentarios {
+   margin-bottom: 40px;
+}
+.trabalhos img {
+   width: 100%;
+   max-width: 300px;
+   margin: 10px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.servicos ul {
+   list-style: none;
+   padding: 0;
+}
+.servicos li {
+   margin-bottom: 10px;
+}
+.comentarios blockquote {
+   font-style: italic;
+   border-left: 4px solid #333;
+   padding-left: 10px;
+   margin: 20px 0;
+}
+.contato form {
+   display: flex;
+   flex-direction: column;
+}
+.contato input, .contato textarea {
+   margin-bottom: 10px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+.contato button {
+   padding: 10px;
+   background-color: #333;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+footer {
+   text-align: center;
+   padding: 10px;
+   background-color: #333;
+   color: white;
+}
